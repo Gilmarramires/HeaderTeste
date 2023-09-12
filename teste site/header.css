@@ -1,0 +1,352 @@
+@font-face {
+    font-family: principal;
+    src: url(./font/IntroRust-Base.otf);
+}
+
+@font-face {
+    font-family: secundaria;
+    src: url(./font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+}
+
+.head {
+    height: 200px;
+    width: 100%;
+    display: fixed;
+    border: 5px solid #FAAE03;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 70px;
+    background-color: #d9d9d9;
+    font-family: principal;
+}
+
+.quem {
+    height: 45px;
+    width: 150px;
+    margin-top: 10px;
+    margin-left: 90px;
+    border-radius: 25px;
+    border: 1px solid;
+    background-color: #d9d9d9;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    font-family: principal;
+}
+
+.blog {
+    height: 45px;
+    width: 150px;
+    border-radius: 25px;
+    border: 1px solid;
+    background-color: #d9d9d9;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    font-family: principal;
+}
+
+.materiais {
+    height: 45px;
+    width: 170px;
+    border-radius: 25px;
+    border: 1px solid;
+    background-color: #d9d9d9;
+    font-size: 13px;
+    color: white;
+    cursor: pointer;
+    font-family: principal;
+}
+
+.entrega {
+    margin-left: 1000px;
+    margin-top: -30px;
+}
+
+.iconEntregar {
+    margin-top: -50px;
+    margin-left: -100px;
+    width: 80px;
+}
+
+.entrega p {
+    font-size: 16px;
+    color: white;
+}
+
+.logo {
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.input {
+    margin-left: 400px;
+    margin-top: -70px;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: white;
+    font-size: 20px;
+    font-family: secundaria;
+}
+
+.epi {
+    width: 500px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #d9d9d9;
+    border: none;
+    outline: 0;
+}
+
+.btnBusca {
+    margin-left: -500px;
+    margin-bottom: -10px;
+}
+
+.acesso {
+    margin-left: 950px;
+    margin-top: -52px;
+}
+
+.acessar {
+    width: 200px;
+    height: 50px;
+    border-radius: 22px;
+    border: none;
+    background-color: #FAAE03;
+    cursor: pointer;
+    color: white;
+    font-family: principal;
+    letter-spacing: 1px;
+    transition: background-color 0.3s;;
+}
+
+.acessar:hover {
+    background-color: #013283;
+}
+
+.btnAcesso {
+    margin-left: -195px;
+    margin-bottom: -10px;
+    cursor: pointer;
+}
+
+.central {
+    margin-left: 1230px;
+    margin-top: -45px;
+    font-family: secundaria;
+}
+
+.central p {
+    color: #013283;
+}
+
+.icon {
+    margin-left: 1180px;
+    margin-top: -40px;
+}
+
+.links {
+    width: 100%;
+    height: 85px;
+    background-color: #013283;
+    font-family: principal;
+}
+
+.text {
+    font-family: principal;
+    color: #FAAE03;
+    margin-left: 150px;
+    margin-top: -60px;
+    font-size: 14px;
+}
+
+.todos-produtos img {
+    margin-left: 90px;
+    margin-top: -55px;
+}
+
+.marca {
+    margin-left: 160px;
+    margin-top: 8px;
+}
+
+.marca p {
+    color: white;
+}
+
+.marca img {
+    margin-left: 95px;
+    margin-top: -40px;
+}
+
+.segmento {
+    margin-left: 330px;
+    margin-top: 8px;
+}
+
+.segmento p {
+    color: white;
+}
+
+.segmento img {
+    margin-left: 85px;
+    margin-top: -40px;
+}
+
+.calcados {
+    margin-left: 490px;
+    margin-top: 8px;
+}
+
+.calcados p {
+    color: white;
+}
+
+.calcados img {
+    margin-left: 88px;
+    margin-top: -40px;
+}
+
+.luvas {
+    margin-left: 660px;
+    margin-top: 8px;
+}
+
+.luvas p {
+    color: white;
+}
+
+.luvas img {
+    margin-left: 99px;
+    margin-top: -40px;
+}
+
+.protecao {
+    margin-left: 850px;
+    margin-top: 8px;
+}
+
+.protecao p {
+    color: white;
+}
+
+.protecao img {
+    margin-left: 89px;
+    margin-top: -41px;
+}
+
+.altura {
+    margin-left: 1020px;
+    margin-top: 8px;
+}
+
+.altura p {
+    color: white;
+}
+
+.altura img {
+    margin-left: 99px;
+    margin-top: -40px;
+}
+
+
+
+@media (max-width: 768px) {
+    .head {
+        height: auto; 
+        border: none; 
+    }
+
+    .cabecalho {
+        height: 190px; 
+        text-align: center;
+    }
+
+    .botoes {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .quem, .blog, .materiais {
+        width: 50%; 
+        margin: 10px 0; 
+    }
+
+    .entrega {
+        text-align: center; 
+        margin-top: 20px;
+    }
+
+    .iconEntregar {
+        display: block; 
+        margin: 0 auto;
+    }
+
+    .logo {
+        margin: 20px auto; 
+        text-align: center;
+    }
+
+    .input {
+        margin: 20px auto; 
+        text-align: center;
+        width: 300px;
+    }
+
+    .epi {
+        width: 100%; 
+    }
+
+    .btnBusca {
+        margin: 10px auto; 
+        display: block; 
+    }
+
+    .acesso {
+        text-align: center; 
+        margin-top: 10px; 
+        margin-left: 05px;
+    }
+
+    .btnAcesso {
+        margin: 10px auto; 
+        display: block; 
+    }
+
+    .central {
+        text-align: center; 
+        margin-top: 20px;
+        margin-left: 05px;
+    }
+
+    .icon {
+        margin: 10px auto; 
+        display: block; 
+        margin-left: 190px;
+    }
+
+    .todos-produtos {
+        margin-left: 40px;
+    }
+
+    .marca,
+    .segmento,
+    .calcados,
+    .luvas,
+    .protecao,
+    .altura {
+        display: none;
+    }
+
+}

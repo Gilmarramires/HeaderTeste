@@ -1,0 +1,99 @@
+@font-face {
+    font-family: principal;
+    src: url(./font/IntroRust-Base.otf);
+}
+
+@font-face {
+    font-family: secundaria;
+    src: url(./font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.identificacao {
+    margin-left: 450px;
+}
+
+.cima {
+    font-family: principal;
+    color: #013283;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.baixo {
+    font-family: secundaria;
+    color: #000000;
+}
+
+.botao1 {
+    margin-left: 250px;
+    margin-top: 40px;
+}
+
+.botaoSim {
+    width: 350px;
+    height: 80px;
+    border-radius: 25px;
+    border: none;
+    background-color: #013283;
+    color: white;
+    font-family: principal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botaoSim span {
+    color: #faae03;
+}
+
+.sim {
+    margin-left: -315px;
+    margin-bottom: -30px;
+}
+
+.botao2 {
+    margin-left: 700px;
+    margin-top: -80px;
+}
+
+.botaoNao {
+    width: 350px;
+    height: 80px;
+    border-radius: 25px;
+    border: none;
+    background-color: #013283;
+    color: white;
+    font-family: principal;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.botaoNao span {
+    color: #faae03;
+}
+
+.nao {
+    margin-left: -310px;
+    margin-bottom: -28px;
+}
+
+@media (max-width: 768px) {
+    .identificacao {
+        margin-left: 10px;
+        font-size: 15px;
+    }
+
+    .botao1 {
+        margin-left: 40px;
+    }
+
+    .botao2 {
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+}
